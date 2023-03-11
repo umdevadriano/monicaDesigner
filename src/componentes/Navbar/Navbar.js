@@ -2,15 +2,13 @@ import { useRef } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../Logo/Logo';
 import '../Navbar/Navbar.css';
-import imagem from '../Banner/png.png';
 import { Link } from 'react-scroll';
 
 function Navbar() {
   const navRef = useRef();
   const titulos = [
     { nome: 'Home', id: 'Home' },
-    { nome: 'Especialidades', id: 'Especialidades' },
-    { nome: 'O Escritório', id: 'Sobre' },
+    { nome: 'Sobre', id: 'Sobre' },
     { nome: 'Contato', id: 'Contato' },
   ];
 
@@ -20,11 +18,10 @@ function Navbar() {
 
   return (
     <header>
-      <Logo logo={imagem} tamanho="4rem" />
+      <Logo />
 
       <nav ref={navRef}>
         {titulos.map((titulo) => (
-          // <a href="/#">{titulo}</a>
           <Link
             activeClass="active"
             to={titulo.id}
@@ -34,7 +31,7 @@ function Navbar() {
             duration={100}
             onClick={showNavbar}
           >
-            {titulo.nome}
+            <p>{titulo.nome}</p>
           </Link>
         ))}
         {/* Sobre */}

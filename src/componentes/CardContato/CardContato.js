@@ -12,11 +12,6 @@ const CardContato = () => {
     <div className={Styles.Container}>
       <div>
         <h1>
-          <lord-icon
-            src="https://cdn.lordicon.com/elzslyvl.json"
-            trigger="hover"
-            style={{ width: '100px', height: '100px' }}
-          ></lord-icon>
           <br />
           <small>
             « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed »{' '}

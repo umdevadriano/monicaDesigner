@@ -11,8 +11,7 @@ body {
 }
 @font-face {
   font-family: 'Menu';
-  src: url('../public/fontes/Cormorant_Garamond/CormorantGaramond-Regular.ttf')
-    format('truetype');
+  src: url('../public/fontes/montserrat/Montserrat-Thin.ttf') format('truetype');
 }
 
 @font-face {
@@ -23,8 +22,8 @@ body {
 
 :root {
   --mainColor: #555;
-  --mainColorLight: #e0ffff;
+  --corFundo: #fff;
   --secondaryColor: #db2b39;
-  --textColor: #ffc1c1;
-  --ColorHover: #eee;
+  --textColor: #000000;
+  --ColorHover: #f4a460;
 }

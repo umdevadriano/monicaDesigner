@@ -1,4 +1,28 @@
 .Container {
-  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
   height: 100%;
+}
+.Container p {
+  margin: 0;
+  padding: 0;
+  font-family: 'menu';
+  font-weight: bold;
+  width: 20rem;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+  }
+  .Container p {
+    font-size: 1.6rem;
+  }
 }

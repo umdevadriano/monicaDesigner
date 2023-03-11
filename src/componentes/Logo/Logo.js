@@ -4,7 +4,7 @@ import Styles from '../Logo/Logo.module.css';
 const Logo = (props) => {
   return (
     <div className={Styles.Container}>
-      <img src={props.logo} style={{ width: `${props.tamanho}` }} alt="logo" />
+      <p>MONICA GARCIA</p>
     </div>
   );
 };

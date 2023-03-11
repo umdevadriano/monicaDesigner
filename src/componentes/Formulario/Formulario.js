@@ -47,11 +47,6 @@ const Formulario = () => {
     <div className={Styles.Container}>
       {status ? (
         <form onSubmit={onSubmit} noValidate>
-          <lord-icon
-            src="https://cdn.lordicon.com/tkgyrmwc.json"
-            trigger="loop"
-            style={{ width: '70px', height: '70px' }}
-          ></lord-icon>
           <div className="form-group mb-2">
             <label className="mb-2">
               <strong>Nome</strong>
