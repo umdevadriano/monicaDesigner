@@ -1,0 +1,22 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 25rem;
+  background-color: #eeee;
+  color: black;
+}
+.Container h3 {
+  font-family: 'Source Sans Pro';
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 19px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #b1976b;
+}

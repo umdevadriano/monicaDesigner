@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+@font-face {
+  font-family: 'Menu';
+  src: url('../public/fontes/Cormorant_Garamond/CormorantGaramond-Regular.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'Menu1';
+  src: url('../public/fontes/Montserrat_Alternates/MontserratAlternates-Light.ttf')
+    format('truetype');
+}
+
+:root {
+  --mainColor: #555;
+  --mainColorLight: #e0ffff;
+  --secondaryColor: #db2b39;
+  --textColor: #ffc1c1;
+  --ColorHover: #eee;
+}

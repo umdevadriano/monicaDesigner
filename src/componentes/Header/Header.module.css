@@ -1,0 +1,8 @@
+.Container {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  color: #222222;
+  background-color: #222222;
+}

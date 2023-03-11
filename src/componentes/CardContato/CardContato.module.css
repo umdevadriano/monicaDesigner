@@ -1,0 +1,51 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.Container h1 {
+  font-family: 'Menu1';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 21px;
+  color: #555;
+  text-align: center;
+}
+.Container ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+}
+.Container li {
+  color: #555;
+  list-style: none;
+  padding: 0.5rem;
+}
+.Container li a {
+  text-decoration: none;
+  color: #555;
+}
+.Container img {
+  width: 2rem;
+}
+.Container svg {
+  fill: #555;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Container {
+    flex-direction: column;
+  }
+  .Container ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 14rem;
+  }
+}

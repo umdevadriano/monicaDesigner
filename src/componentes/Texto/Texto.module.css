@@ -1,0 +1,26 @@
+.Container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  /* align-items: flex-end; */
+}
+.Container h2 {
+  display: flex;
+  width: 21rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.6em;
+}
+
+@media (max-width: 900px) {
+  .Container h2 {
+    width: 100%;
+  }
+}
