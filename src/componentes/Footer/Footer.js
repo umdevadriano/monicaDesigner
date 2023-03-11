@@ -1,14 +1,15 @@
 import React from 'react';
-import TextoRoda from '../TextoRoda/TextoRoda';
 import Styles from './Footer.module.css';
 
 const Footer = () => {
   return (
     <div className={Styles.Container}>
-      <TextoRoda
-        texto=" Copyright © 2022 - Site de Advocacia | Desenvolvido por: Sampaio S.S
-        "
-      />
+      <span>
+        Copyright © 2023 - Monica Garcia | Desenvolvido por:{' '}
+        <a href="https://adrianosampaio.com.br/" target="blank">
+          - Adriano Sampaio
+        </a>
+      </span>
     </div>
   );
 };

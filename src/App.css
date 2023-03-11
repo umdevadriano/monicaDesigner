@@ -21,9 +21,7 @@ body {
 }
 
 :root {
-  --mainColor: #555;
   --corFundo: #fff;
-  --secondaryColor: #db2b39;
   --textColor: #000000;
   --ColorHover: #f4a460;
 }
