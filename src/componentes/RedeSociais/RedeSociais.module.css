@@ -7,6 +7,12 @@
 .Container svg {
   width: 2rem;
   height: 3rem;
+  margin-right: 1rem;
+  transition: 0.5s;
+}
+.Container svg:hover {
+  width: 2.7rem;
+  height: 3rem;
 
   margin-right: 1rem;
 }

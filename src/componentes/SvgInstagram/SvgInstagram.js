@@ -26,10 +26,10 @@ const SvgInstagram = (props) => {
               id="Instagram_2_"
               r="163.5519"
             >
-              <stop offset="0" style={{ stopColor: '#FFB140' }} />
-              <stop offset="0.2559" style={{ stopColor: '#FF5445' }} />
-              <stop offset="0.599" style={{ stopColor: '#FC2B82' }} />
-              <stop offset="1" style={{ stopColor: '#8E40B7' }} />
+              <stop offset="0" style={{ stopColor: '#696969' }} />
+              <stop offset="0.2559" style={{ stopColor: '#696969' }} />
+              <stop offset="0.599" style={{ stopColor: '#696969' }} />
+              <stop offset="1" style={{ stopColor: '#696969' }} />
             </radialGradient>
             <path
               clip-rule="evenodd"
