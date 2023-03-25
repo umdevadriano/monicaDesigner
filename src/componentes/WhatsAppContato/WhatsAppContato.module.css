@@ -11,15 +11,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 13rem;
+  width: 4rem;
   border-radius: 15px 15px 1px 15px;
-  background-color: #23a455;
+  background-color: #ffe4e1;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
   padding: 12px 16px 12px 16px;
   margin-right: 1.4rem;
 }
 .containerSpan:hover {
-  background-color: #22a331;
+  background-color: #ffe4e1;
+  fill: #555;
 }
 .containerSpan span {
   color: #eee;

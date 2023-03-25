@@ -1,6 +1,7 @@
 import React from 'react';
+import SvgGmail from '../SvgGmail/SvgGmail';
 import SvgInstagram from '../SvgInstagram/SvgInstagram';
-import SvgLinkedin from '../SvgLinkedin/SvgLinkedin';
+import SvgWhatsap from '../SvgWhatsap/SvgWhatsap';
 import Styles from './RedeSociais.module.css';
 
 const RedeSociais = (props) => {
@@ -10,16 +11,22 @@ const RedeSociais = (props) => {
       style={{ justifyContent: `${props.posicao}` }}
     >
       <a
-        href="https://www.instagram.com/camilasantosdeus/?igshid=OGQ2MjdiOTE%3D"
+        href="https://wa.me/5511985439741?text=Ol%C3%A1%21+Estou+no+site,+gostaria+de+saber+mais+sobre+seus+produtos!"
+        target="blank"
+      >
+        <SvgWhatsap />
+      </a>
+      <a
+        href="https://www.instagram.com/mogarcianunes/?igshid=YmMyMTA2M2Y%3D"
         target="blank"
       >
         <SvgInstagram />
       </a>
       <a
-        href="https://www.linkedin.com/in/camila-santos-5853b2b7"
+        href="https://www.instagram.com/mogarcianunes/?igshid=YmMyMTA2M2Y%3D"
         target="blank"
       >
-        <SvgLinkedin link="https://www.linkedin.com/in/camila-santos-5853b2b7" />{' '}
+        <SvgGmail />
       </a>
     </div>
   );
