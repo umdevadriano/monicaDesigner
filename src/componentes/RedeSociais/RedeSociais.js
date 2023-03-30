@@ -1,4 +1,5 @@
 import React from 'react';
+import SvgFacebook from '../SvgFacebook/SvgFacebook';
 import SvgGmail from '../SvgGmail/SvgGmail';
 import SvgInstagram from '../SvgInstagram/SvgInstagram';
 import SvgWhatsap from '../SvgWhatsap/SvgWhatsap';
@@ -21,6 +22,12 @@ const RedeSociais = (props) => {
         target="blank"
       >
         <SvgInstagram />
+      </a>
+      <a
+        href="https://wa.me/5511985439741?text=Ol%C3%A1%21+Estou+no+site,+gostaria+de+saber+mais+sobre+seus+produtos!"
+        target="blank"
+      >
+        <SvgFacebook />
       </a>
       <a
         href="https://www.instagram.com/mogarcianunes/?igshid=YmMyMTA2M2Y%3D"
