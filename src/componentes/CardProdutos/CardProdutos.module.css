@@ -1,0 +1,32 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  height: 20rem;
+  border: solid 1px #555;
+  gap: 2px;
+  color: var(--corTexto);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+h1,
+span,
+h2,
+a {
+  color: #555;
+  font-family: 'Menu1';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Container {
+    width: 90%;
+    height: 15rem;
+  }
+}
