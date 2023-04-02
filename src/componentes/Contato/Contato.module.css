@@ -5,6 +5,10 @@
   width: 100%;
   flex-direction: column;
   background-color: #e8e8e8;
+  background-image: url('./pngegg\(4\).png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 2rem;
 }
 
