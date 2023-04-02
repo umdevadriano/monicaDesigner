@@ -7,6 +7,9 @@ const Texto = (props) => {
       <h2 style={{ fontSize: `${props.tamanho}`, color: `${props.cor}` }}>
         {props.texto}
       </h2>
+      <h2 style={{ fontSize: `${props.tamanho}`, color: `${props.cor}` }}>
+        {props.texto2}
+      </h2>
     </div>
   );
 };

@@ -1,8 +1,13 @@
 .Container {
   width: 100%;
-  height: 25rem;
+  height: 35rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: #222222;
-  background-color: #222222;
+  background-image: url('./bannerPlaner.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

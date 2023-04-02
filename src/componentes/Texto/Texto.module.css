@@ -1,22 +1,29 @@
 .Container {
-  width: 60%;
-  height: 100%;
+  width: 30%;
+  height: 20%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   padding: 1rem;
-
-  /* align-items: flex-end; */
+  /* background-color: var(--corFundo); */
+  background-image: url('./pngegg\(5\).png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
 }
 .Container h2 {
   display: flex;
-  width: 21rem;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 25px;
+  font-family: 'Menu';
+  font-weight: bold;
+  /* background-color: var(--ColorHover); */
+  /* background-image: url('./pngegg\(5\).png'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  letter-spacing: 0.09em;
   text-align: center;
-  text-shadow: black 0.1em 0.1em 0.6em;
 }
 
 @media (max-width: 900px) {
