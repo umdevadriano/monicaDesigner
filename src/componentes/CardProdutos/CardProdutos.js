@@ -4,7 +4,14 @@ import Styles from './CardProdutos.module.css';
 
 const CardProdutos = (props) => {
   return (
-    <div style={{ background: `${props.fundo}` }} className={Styles.Container}>
+    <div
+      style={{
+        background: `${props.fundo}`,
+        width: `${props.tamanho}`,
+        height: `${props.altura}`,
+      }}
+      className={Styles.Container}
+    >
       <h1>{props.titulo}</h1>
       <span>{props.texto}</span>
       <div>{props.svg}</div>

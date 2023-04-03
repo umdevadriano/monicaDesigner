@@ -8,6 +8,24 @@ const CardServicos = () => {
     <div className={Styles.Container}>
       <CardProdutos
         fundo="#FFE4E1"
+        titulo="Papelaria Personalizada"
+        texto="Produtos de papelaria são mais que simples
+        objetos de escrita e anotação, eles são
+        ferramentas poderosas para ajudar a
+        organizar, inspirar e alcançar seus objetivos."
+        svg={<SvgLapiz />}
+        linkTexto="Saiba mais"
+      />
+      <CardProdutos
+        fundo="#FFE4E1"
+        titulo="Identidade Visual"
+        texto="AS PESSOAS PRECISAM OLHAR PARA A SUA
+        MARCA COM A MESMA PAIXÃO QUE VOCÊ!"
+        svg={<SvgLapiz />}
+        linkTexto="Saiba mais"
+      />
+      <CardProdutos
+        fundo="#FFE4E1"
         titulo="Linha Escolar"
         texto="Conheça a nossa linha de papelaria escolar
         personalizada desenvolvida
