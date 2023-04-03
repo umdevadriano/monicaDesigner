@@ -17,6 +17,7 @@ header {
   border-top: solid 1px var(--textColor);
   background-color: var(--corFundo);
   position: fixed;
+  z-index: 70;
 }
 
 nav a {

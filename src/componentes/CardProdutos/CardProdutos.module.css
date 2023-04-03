@@ -3,14 +3,21 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   width: 30%;
   height: 20rem;
-  border: solid 1px #555;
+  /* border: solid 1px #555; */
   gap: 2px;
   color: var(--corTexto);
   border-radius: 1rem;
   padding: 1rem;
+  transition: 2s;
+}
+.Container:hover:not(:hover) {
+  opacity: 0, 3;
+  z-index: -1;
+}
+.Container:hover {
+  scale: 1.1;
 }
 h1,
 span,

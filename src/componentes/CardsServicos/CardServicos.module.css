@@ -10,7 +10,7 @@
 
 @media only screen and (max-width: 1024px) {
   .Container {
-    height: 100rem;
+    height: 120rem;
     margin-top: 3rem;
   }
 }
