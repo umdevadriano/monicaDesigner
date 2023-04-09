@@ -1,0 +1,48 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: var(--textColor);
+  width: 100%;
+}
+.Container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+}
+.Container span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  flex-direction: column;
+  text-align: right;
+  width: 100%;
+}
+.Container ul li {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  color: var(--textColor);
+  text-align: left;
+  width: 100%;
+}
+.Container ul li a {
+  text-decoration: none;
+  color: var(--textColor);
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Container {
+    flex-direction: column;
+  }
+}

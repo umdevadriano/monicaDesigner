@@ -1,23 +1,16 @@
 .Container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  flex-direction: column;
-  background-color: #e8e8e8;
+  height: 25rem;
   background-image: url('./pngegg\(4\).png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 2rem;
 }
 
-.ContainerContato {
-  display: flex;
-  align-items: center;
-}
-
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
   .Container {
     flex-direction: column;
   }
@@ -25,4 +18,4 @@
     display: flex;
     flex-direction: column;
   }
-}
+} */
