@@ -12,7 +12,7 @@ const CardProdutos = (props) => {
         width: `${props.tamanho}`,
         height: `${props.altura}`,
         backgroundSize: 'cover',
-        border: `1px solid ${props.borda}`,
+        // border: `1px solid ${props.borda}`,
         backgroundRepeat: 'no-repeat',
       }}
       className={Styles.Container}

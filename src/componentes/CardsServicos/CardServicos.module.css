@@ -7,10 +7,14 @@
   height: 50rem;
   gap: 1.8rem;
 }
+.Container svg {
+  width: 7rem;
+  height: 7rem;
+}
 
 @media only screen and (max-width: 1024px) {
   .Container {
-    height: 120rem;
+    height: 145rem;
     margin-top: 3rem;
   }
 }
