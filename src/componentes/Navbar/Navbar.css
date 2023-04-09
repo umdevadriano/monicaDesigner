@@ -34,6 +34,8 @@ nav a p {
   font-family: 'menu';
   font-size: 1.3rem;
   font-weight: bold;
+  border-right: 1px solid var(--textColor);
+  padding: 1rem;
 }
 
 nav a:hover {
@@ -99,5 +101,14 @@ nav {
     border-bottom: solid 1px var(--textColor);
     padding: 1rem;
     width: 80%;
+  }
+  nav a p {
+    margin: 0;
+    padding: 0;
+    font-family: 'menu';
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-right: 1px solid transparent;
+    padding: 1rem;
   }
 }
