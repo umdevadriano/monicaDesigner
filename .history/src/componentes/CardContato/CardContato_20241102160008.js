@@ -16,6 +16,7 @@ const CardContato = () => {
     <div className={Styles.Container}>
       <div className={Styles.ContaineriInfo}>
         <Informacoes titulo="Funcionamento" Itens={funcionamento} link={true} />
+
         <RedeSociais posicao="right" />
       </div>
     </div>

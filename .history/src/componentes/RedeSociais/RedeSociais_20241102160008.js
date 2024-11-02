@@ -23,7 +23,7 @@ const RedeSociais = (props) => {
       >
         <SvgInstagram />
       </a>
-      {/* <a
+      <a
         href="https://wa.me/5511985439741?text=Ol%C3%A1%21+Estou+no+site,+gostaria+de+saber+mais+sobre+seus+produtos!"
         target="blank"
       >
@@ -34,7 +34,7 @@ const RedeSociais = (props) => {
         target="blank"
       >
         <SvgGmail />
-      </a> */}
+      </a>
     </div>
   );
 };
