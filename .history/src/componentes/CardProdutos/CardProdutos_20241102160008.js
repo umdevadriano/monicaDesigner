@@ -20,7 +20,7 @@ const CardProdutos = (props) => {
       <h1>{props.titulo}</h1>
       <span>{props.texto}</span>
       <div>{props.svg}</div>
-      {/* <a href="/">{props.linkTexto}</a> */}
+      <a href="/">{props.linkTexto}</a>
     </div>
   );
 };
